@@ -2,8 +2,8 @@
 <resources>
     <string name="app_name">Cambiar color Spinner</string>
     <string name="hello_world">Hola Mundo!</string>
-    <string name="choose_language">Choose language:</string>
-    <string name="choose_theme_color">Choose theme color:</string>
+    <string name="choose_language">Elige lengua:</string>
+    <string name="choose_theme_color">Elige el color del tema:</string>
     <string-array name="language_array">
         <item>Ruso</item>
         <item>Inglesa</item>

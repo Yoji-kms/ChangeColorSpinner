@@ -2,8 +2,8 @@
 <resources>
     <string name="app_name">Farbspinner ändern</string>
     <string name="hello_world">Hallo Welt!</string>
-    <string name="choose_language">Choose language:</string>
-    <string name="choose_theme_color">Choose theme color:</string>
+    <string name="choose_language">Sprache wählen:</string>
+    <string name="choose_theme_color">Wählen Sie die Themenfarbe:</string>
     <string-array name="language_array">
         <item>Russisch</item>
         <item>Englisch</item>
