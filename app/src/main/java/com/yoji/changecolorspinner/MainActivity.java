@@ -160,9 +160,11 @@ public class MainActivity extends AppCompatActivity {
     public void setColorSpinnerItem() {
         int sharedTheme = langSharedPrefs.getInt(THEME_KEY, 4);
         int currentTheme = Utils.getThemeResId();
-        themeSpinner.setSelection(sharedTheme);
-        if (sharedTheme != 4 && sharedTheme != currentTheme) {
-            Utils.changeToTheme(MainActivity.this, sharedTheme);
+        if (sharedTheme != 4) {
+            themeSpinner.setSelection(sharedTheme);
+            if (sharedTheme != currentTheme) {
+                Utils.changeToTheme(MainActivity.this, sharedTheme);
+            }
         }
     }
 }
