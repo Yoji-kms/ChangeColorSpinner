@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Change Color Spinner</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="choose_language">Choose language:</string>
+    <string name="choose_theme_color">Choose theme color:</string>
+    <string-array name="language_array">
+        <item>Russian</item>
+        <item>English</item>
+        <item>Spanish</item>
+        <item>German</item>
+        <item>French</item>
+    </string-array>
+    <string-array name="color_array">
+        <item>Default</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Black</item>
+    </string-array>
+</resources>

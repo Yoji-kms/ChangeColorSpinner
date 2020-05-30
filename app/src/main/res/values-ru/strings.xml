@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spinner Изменения цвета</string>
+    <string name="hello_world">Привет Мир!</string>
+    <string name="choose_language">Выберите язык:</string>
+    <string name="choose_theme_color">Выберите цвет темы:</string>
+    <string-array name="language_array">
+        <item>Русский</item>
+        <item>Английский</item>
+        <item>Испанский</item>
+        <item>Немецкий</item>
+        <item>Французский</item>
+    </string-array>
+    <string-array name="color_array">
+        <item>Стандартный</item>
+        <item>Зелёный</item>
+        <item>Синий</item>
+        <item>Черный</item>
+    </string-array>
+</resources>

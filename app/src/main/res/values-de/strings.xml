@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Farbspinner ändern</string>
+    <string name="hello_world">Hallo Welt!</string>
+    <string name="choose_language">Choose language:</string>
+    <string name="choose_theme_color">Choose theme color:</string>
+    <string-array name="language_array">
+        <item>Russisch</item>
+        <item>Englisch</item>
+        <item>Spanisch</item>
+        <item>Deutsche</item>
+        <item>Französisch</item>
+    </string-array>
+    <string-array name="color_array">
+        <item>Standard</item>
+        <item>Grün</item>
+        <item>Blau</item>
+        <item>Schwarz</item>
+    </string-array>
+</resources>
