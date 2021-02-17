@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private String chosenLocale;
     private int chosenThemeId;
 
-    private AdapterView.OnItemSelectedListener themeSpinnerOnItemSelectListener = new AdapterView.OnItemSelectedListener() {
+    private final AdapterView.OnItemSelectedListener themeSpinnerOnItemSelectListener = new AdapterView.OnItemSelectedListener() {
         @Override
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
             chosenThemeId = position;
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-    private AdapterView.OnItemSelectedListener langSpinnerOnItemSelectListener = new AdapterView.OnItemSelectedListener() {
+    private final AdapterView.OnItemSelectedListener langSpinnerOnItemSelectListener = new AdapterView.OnItemSelectedListener() {
         @Override
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
             switch (position) {
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
 
-    private View.OnClickListener okBtnOnClickListener = new View.OnClickListener() {
+    private final View.OnClickListener okBtnOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             if (chosenLocale != null) {
